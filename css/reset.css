@@ -1,0 +1,103 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0
+}
+
+*:not(input,textarea) {
+    -webkit-touch-callout: inherit;
+    -webkit-user-select: auto
+}
+
+/*这是在移动端进行响应式布局时，对于字号的设置使用的是 rem 单位
+在字号设置的时候使用rem，其他设置可以继续使用px*/
+html {
+    font-size:62.5%;
+}
+
+body {
+    width: 100%;
+    max-width: 640px;
+    font-family: Hiragino Sans GB, Arial, Helvetica, "微软雅黑", sans-serif;
+    font-size: 1.6rem;
+    -webkit-touch-callout: inherit;
+    -webkit-user-select: auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+a:hover {
+    text-decoration: none
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family:"微软雅黑";
+    border:none;
+}
+
+dt, dd {
+    display: inline-block
+}
+
+textarea, input {
+    resize: none;
+    outline: 0
+}
+
+textarea {
+    resize: none;
+    -webkit-appearance: none
+}
+
+ul, ol, li {
+    list-style: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal
+}
+
+button, input, select, textarea {
+    outline: 0;
+}
+
+button,
+input {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+button, html input[type=button], input[type=submit] {
+    -webkit-appearance: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+img {
+    vertical-align:middle;
+}
+
+
+
+
